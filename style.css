@@ -1,0 +1,389 @@
+
+body {
+    font-family: 'Lato' , sans-serif;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Dancing Script', 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+ .left-header img {
+    height: 45px;
+    width: 45px;
+    
+}
+.selfie {
+    border-radius: 15px;
+}
+
+nav img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+}
+
+nav img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 6px #505050);
+    transition: 0.1s ease-out;
+    transform: scale(1.1);
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+}
+
+.left-header {
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.underline{
+    background-color: rgba(0, 0, 0, 0.303);
+    height: 2px;
+    margin-top: 10px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ header input {
+    height: 25px;
+    border-radius: 5px;
+    width: 40vw;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+
+.posts {
+    width: 40vw;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 180px;
+    margin-top:30px;
+    border: 2px solid #8e8e8e;
+    padding: 15px;
+    border-radius: 3px;
+    
+}
+
+ .profileimg {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+ }
+ .post-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+
+ .loc-author-container {
+    display: flex;
+    
+    flex-direction: column;
+
+    justify-content: center;
+ }
+
+ .icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 0;
+ }
+
+ .icons img {
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+ }
+
+ .icons img:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 6px #505050);
+    transition: 0.1s ease-out;
+    transform: scale(1.1);
+
+ }
+ .post-image {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-top: 5px;
+ }
+ h5 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+ }
+
+ h4 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ h6 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+ }
+
+ .desc-container {
+    display:flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 5px;
+ }
+ .desc {
+    font-size: 0.9em;
+ }
+
+ #commentContainer input {
+    width: 60%;
+    margin-top: 10px;
+    border:none;
+    outline: none;
+ }
+
+ #commentContainer {
+    display: flex;
+    justify-content: space-between;
+ }
+
+#commentContainer input::placeholder {
+    text-align: left;
+}
+#line {
+    margin-top: 5px;
+    margin-bottom: 2px;
+    background-color: gray;
+    height: 1px;
+}
+
+p {
+    margin-bottom: 1px;
+    margin-top: 2px;
+    font-size: 14px;
+}
+
+.posts button {
+    border: none;
+    background-color: white;
+    color: rgb(62, 62, 215);
+    font-weight: bold;
+    margin-left: 25px;
+    padding: 8px;   
+    margin-top: 10px;
+}
+
+.posts button:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 6px #505050);
+    border-radius: 20px;
+    background-color: #46adfc;
+    color: white;
+}
+
+h3 {
+    margin-top: 0;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.margincomment {
+    margin-bottom: 5px;
+}
+
+.d-none {
+    display: none !important;
+}
+
+footer img {
+    height: 40px;
+}
+footer {
+    display: flex;
+    justify-content:space-between;
+    padding: 17px;
+    background-color: #353535;
+    margin-top: 50px;
+    color: white !important;
+    
+    /*position: sticky;  Footer bliebt immer am unteren Rand der Seite. */
+}
+
+
+.footer-right-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.footer-left-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer a  {
+    color: white;
+}
+footer h3 {
+    margin: 0;
+}
+
+.margin-left{
+   margin-left: 20px; 
+}
+.footer-container {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.suggestedUserProfile {
+    display: flex;
+    gap: 20px;
+}
+
+.suggestedUserProfile img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+#suggestedUser {
+    margin: 50px;
+}
+
+.suggestion {
+    margin-top: 40px;
+    color: gray;
+    
+}
+.user-container-left img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.user-container {
+    
+    margin-top: 20px;
+}
+.user-container-left {
+    display: flex;
+    gap: 10px;
+}
+.user-container button {
+    color: blue;
+    border: none;
+    background-color: white;
+    margin-left: auto;
+}
+
+.user-container button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.d-flex {
+    display: flex;
+    margin-top: 30px;
+    gap: 40px;
+   
+}
+
+@media (max-width: 1000px ) {
+    #suggestedUser {
+        margin-left: 20px;
+    }
+    .posts {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 900px) {
+    #content2 {
+        display: none;
+    }
+    #content {
+        margin:auto;
+    }
+    .posts {
+        margin-left: 0;
+        width: 65vw;
+    }
+
+}
+
+@media (max-width:750px) {
+    .input {
+        display: none;
+    }
+
+}
+@media (max-width:450px) {
+    .left-header {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: center;
+        height: 70px;
+    }
+    .posts {
+        width: 80vw;
+    }
+    .footer-left-container {
+        display: none;
+    }
+    footer {
+        display: flex;
+        justify-content: center;
+        height: 40px;
+    }
+    .desc {
+        font-size: 12px;
+    }
+    h5 {
+        font-size: 16px;
+    }
+}

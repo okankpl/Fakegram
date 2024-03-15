@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fakegram</title>
+  </head>
+  <body onload="render() , renderSuggestedUser() ">
+    <header>
+      <div class="left-header">
+        <img src="img/icon.png" alt="" />
+        <div><h2>Fakegram</h2></div>
+      </div>
+      <div class="input">
+        <input
+          placeholder="Suchen..."
+          type="text"
+          class="input-img"
+          maxlength="25"
+        />
+      </div>
+      <nav>
+        <img src="img/home.png" alt="" />
+        <img src="img/nav.png" alt="" />
+        <img src="img/compass.png" alt="" />
+        <img src="img/okan.jpg" alt="" class="selfie" />
+      </nav>
+    </header>
+    <div class="underline"></div>
+    <div class="container">
+
+      <div id="content"></div>
+      <div id="content2">
+      <div id="suggestedUser">
+        <div class="suggestedUserProfile">
+          <img src="img/okan.jpg" alt="">
+          <div><h3>okan.kpl</h3> Okan Kaplan</div>
+          
+        </div>
+       <div class="suggestion">
+         <p>Vorschläge für dich:</p>
+         </div>
+         <div class="user-container" id="userContainer" >
+          
+         </div>
+      </div>
+      </div>
+    </div>
+      <footer>
+        <div class="footer-left-container">
+          <img src="img/home2.png" alt="" />
+          <h3>Fakegram</h3>
+        </div>
+        <div class="footer-right-container">
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="Impressum.html">Impressum</a>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
